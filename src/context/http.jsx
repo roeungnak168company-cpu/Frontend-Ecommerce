@@ -1,4 +1,5 @@
-export const apiUrl = "https://laravel-production-aca7.up.railway.app/api";
+export const apiUrl =
+  "https://ecommerce-backend-production-4791.up.railway.app/api";
 export const adminToken = () => {
   const data = JSON.parse(localStorage.getItem("adminInfo"));
   return data.token;
